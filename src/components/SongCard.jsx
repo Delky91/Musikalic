@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import PlayPause from './PlayPause';
@@ -17,7 +17,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
   };
 
   return (
-    <div className="flex flex-col w-[250w] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
+    <div className="flex flex-col w-[260px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
       <div className="group relative w-full h-55">
         <div className={`absolute inset-0 justify-center items-center bg-black bg-opacity-50 group-hover:flex ${activeSong?.title === song.title ? 'flex bg-black bg-opacity-70' : 'hidden'}`}>
           <PlayPause song={song} isPlaying={isPlaying} activeSong={activeSong} handlePause={handlePauseClick} handlePlay={handlePlayClick} />
