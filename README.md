@@ -1,6 +1,6 @@
-# Project
+# Musikalic
 
-Develop an elegant React.js Music Application. 
+Elegant React.js Music Application. 
 
 ## Setup
 
