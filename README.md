@@ -87,7 +87,7 @@ Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
 - [Shazam API](https://rapidapi.com/apidojo/api/shazam)
 - [TailswindCSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
-- [API Geolocalización](ttps://geo.ipify.org)
+- [API Geolocalización](https://geo.ipify.org/)
 
 ## Soporte
 
